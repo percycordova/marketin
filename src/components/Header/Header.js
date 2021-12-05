@@ -23,7 +23,7 @@ const Header = () => {
   }, [screenX, showMenu])
 
   return (
-    <header className="flex items-center   md: md:flex-col py-5  bg-white sticky top-0  ">
+    <header className="flex items-center   md: md:flex-col py-5  bg-white fixed w-full top-0 h-30  ">
       <div className="hidden md:flex items-center w-full py-2  md:py-5">
         <a href="/">  <img src={logo} alt="" className="w-30 cursor-pointer mr-10 " /></a>
       

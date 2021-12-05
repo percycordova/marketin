@@ -81,59 +81,6 @@ const Main = () => {
           <img src={ventas} alt="" className="" />
         </div>
       </article>
-
-      <article className="my-10" id="plan-ventas">
-        <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-8  ">
-          Plan de ventas
-        </h2>
-        <ul className="list-disc pl-8">
-          <li className="text-gray-700 text-left md:text-xl my-8">
-            fijamos las pautas y directrices para optimizar el aprovechamiento
-            de las cuentas en las redes
-          </li>
-          <li className="text-gray-700 text-left md:text-xl my-8">
-            Establecemos las características de los artículos
-          </li>
-          <li className="text-gray-700 text-left md:text-xl my-8">
-            Realizamos tele marketing de salida y de entrada
-          </li>
-
-          <li className="text-gray-700 text-left md:text-xl my-8">
-            Monetizar las acciones en la web y las cuentas en las redes sociales
-          </li>
-          <li className="text-gray-700 text-left md:text-xl my-8">
-            Evaluación de los resultados: diario, semanal y mensual
-          </li>
-        </ul>
-
-        <div className="my-4 mx-auto">
-          <img src={ventas} alt="" className="" />
-        </div>
-      </article>
-      {/* Adquiere Hoy */}
-      <article className="my-10">
-        <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-8  ">
-          Inversión anual
-        </h2>
-        <div className="border py-6 px-4 shadow-md">
-          <div className="flex flex-col md:flex-row w-100 items-center ">
-            <p className="text-xl md:text-xl font-bold  text-gray-800 mr-10">
-              ADQUIERA HOY
-            </p>
-            <p className="text-xl text-center my-2 text-gray-800 md:max-w-50   ">
-              Plan corporativo, generador de nuevos clientes y ventas
-            </p>
-          </div>
-          <div className="flex justify-between md:justify-start md:gap-x-10 mt-5 items-center">
-            <p className="text-xl  font-bold  text-gray-800 md:text-2xl">
-              Inversión:{" "}
-            </p>
-            <p className="text-black font-bold text-lg md:ml-14 md:text-2xl">
-              $2.979.000 pesos. (Anual)
-            </p>
-          </div>
-        </div>
-      </article>
     </main>
   );
 };
