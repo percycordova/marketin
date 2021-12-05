@@ -14,7 +14,7 @@ const Header = () => {
 
     if (screenX >= 766) {
       setShowMenu(true)
-    } else{
+    } else {
       setShowMenu(showMenu)
     }
     return () => {
@@ -23,41 +23,42 @@ const Header = () => {
   }, [screenX, showMenu])
 
   return (
-    <header className="flex items-center  relative md:flex-col py-5  bg-white md:sticky top-0 ">
+    <header className="flex items-center   md: md:flex-col py-5  bg-white sticky top-0  ">
       <div className="hidden md:flex items-center w-full py-2  md:py-5">
-        <img src={logo} alt="" className="w-30 cursor-pointer mr-10 " />
+        <a href="/">  <img src={logo} alt="" className="w-30 cursor-pointer mr-10 " /></a>
+      
         <h1 className="text-3xl font-bold text-gray-700">Estrategia digital para su negocio</h1>
       </div>
 
       <ul
         className={`${showMenu ? "show" : "notShow"}
-        flex flex-col md:flex-row  absolute md:static top-24 w-full left-0 w-fu  bg-white text-xl px-6 md:px-0 `}
+        flex flex-col md:flex-row  absolute md:static top-24 w-full left-0  bg-white text-xl px-6 md:px-0 `}
       >
         <li className="  ">
           <a
-            href="#home"
+            href="#beneficios"
             className="block p-3  text-gray-600 cursor-pointer hover:text-black transition-all duration-300 border-b md:border-0"
             onClick={handleShowMenu}
           >
-            Inicio
+            Beneficios
           </a>
         </li>
         <li className="">
           <a
-            href="#home"
+            href="#transformacion-digital"
             className="block p-3 text-gray-600 cursor-pointer hover:text-black transition-all duration-300 border-b md:border-0"
             onClick={handleShowMenu}
           >
-            Tele Mercadeo
+            Transformación digital
           </a>
         </li>
         <li className="">
           <a
-            href="#home"
+            href="#plan-ventas"
             className="block p-3 text-gray-600 cursor-pointer hover:text-black transition-all duration-300 border-b md:border-0"
             onClick={handleShowMenu}
           >
-            Email Marketing
+            Plan de ventas
           </a>
         </li>
       </ul>

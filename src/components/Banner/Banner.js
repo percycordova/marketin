@@ -2,7 +2,7 @@ import React from 'react'
 import banner from '../../assets/banner.gif'
 const Banner = () => {
   return (
-    <div className="">
+    <div className=" mb-10">
       <img src={banner} alt="" style={{height:"450px"}} className="w-full object-cover"/>
     </div>
   )
