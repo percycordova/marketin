@@ -4,6 +4,7 @@ import negocios from '../../assets/negocios.jpg'
 
 const Sidebar = () => {
   const [informacion, setInformacion] = useState([]);
+  console.log(informacion)
   const consultarApi = async () => {
     const api = await fetch(
       "http://hp-api.herokuapp.com/api/characters/students"
